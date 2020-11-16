@@ -1,0 +1,717 @@
+@media (max-width: 1300px){
+	.slick-prev {
+    left: 8%;
+	}
+	.slick-next {
+    left: 13%;
+	}
+}
+@media (max-width: 1200px){
+	.container {
+    max-width: 1200px;
+    padding: 0 15px;
+	}
+	// menu
+	.menu__lists li {
+		margin-left: 25px;
+	}  
+	// activity
+	.activity__slick-prev {
+    	left: 15px;
+	}
+	.activity__slick-next {
+    	right: 15px;
+	}
+	// footer 
+	.footer__item{
+		margin-right: 5px;
+	}
+}
+
+@media (max-width: 1050px){
+	.section {
+		margin-bottom: 50px;
+	}
+	// header
+	.header__logo {
+		display: inline-block;
+		width: 200px;
+		height: auto;
+	}
+	.header__logo-img{
+		width: 100%;
+	}
+	// about
+	.about__inner{
+		justify-content: center;
+	}
+	.about__item {
+		width: 40%;
+		margin: 20px;
+		min-height: 250px;
+		padding-top: 30px;
+	}
+	// services
+	.services__item{
+		padding: 25px 115px 0 20px;
+	}
+	.services__item-link {
+    left: 20px;
+	}
+	// activity
+	.activity__content{
+		flex-direction: column;
+	}
+	.activity__title{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.activity__text{
+		width: 100%;
+	}
+	// reviews
+	.reviews{
+		padding-top: 50px;
+	}
+	.reviews__slider-content {
+		padding: 22px 30px 35px 30px;
+	}
+	.reviews__slider-block--item {
+		min-height: auto;
+	}
+	.reviews__slider-link {
+    	bottom: 25px;
+    	left: 30px;
+	}
+	// partners
+	.partners {
+		margin-top: 50px;
+	}
+	.partners__text{
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.partners__logo{
+		justify-content: space-evenly;
+		padding-bottom: 50px;
+	}
+	.partners__logo-img{
+		margin: 0 10px 10px;
+	}
+	// middle-fon
+	.middle-fon {
+		margin-bottom: 50px;
+	}
+	// trust-benefit
+	.trust-benefit {
+		margin-bottom: 50px;
+	}
+	// warranty
+	.warranty__pay-text {
+    width: calc(100% - 265px);
+	}
+	// service-list
+	.service-list__item:nth-child(odd){
+		width: 49%;
+	}
+	.service-list__item:nth-child(even){
+		width: 49%;
+	}
+	.service-list__item{
+		padding: 25px 15px 0 80px;
+	}
+	.service-list__text{
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+	// trust-benefit
+	.trust-benefit__content {
+		margin-right: 35px;
+	}
+	.trust-benefit {
+		padding: 40px 0 60px;
+	}
+	.trust-benefit__item:first-child {
+		margin-bottom: 28px;
+		padding-bottom: 37px;
+	}
+	// cost
+	.cost {
+		margin-bottom: 50px;
+	}
+	// advantages
+	.advantages__inner{
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+	.advantages__item{
+		width: 44%;
+		margin-bottom: 20px;
+		padding: 30px 15px 35px;
+		min-height: 295px;
+	}
+	.advantages__title {
+		margin-left: 4%;
+	}
+	// organization
+	.organization__inner{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.organization__item-left{
+		max-width: none;
+		width: 80%;
+		margin-bottom: 10px;
+	}
+	.organization__item {
+		min-height: 310px;
+	}
+	.organization__item-right {
+		padding-bottom: 36px;
+		width: 80%;
+	}
+	.organization__item-text {
+		padding-top: 8px;
+	}
+	.form__btn {
+		width: 265px;
+	}
+	.form__btn-text{
+		left: 50%;
+	}
+	// footer
+	.footer__inner{
+		display: block;
+	}
+	.footer__links-inner{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	.footer__links-content {
+		margin-bottom: 0px;
+	}
+	.footer__links {
+		max-width: none;
+		width: 100%;
+	}
+	.footer__links-title{
+		margin-bottom: 35px;
+	}
+	.footer__links-content,
+	.footer__links-social,
+	.footer__links-map{
+		margin-right: 35px;
+	}
+	.footer__text{
+		margin-bottom: 15px;
+	}
+	.footer__links-social{
+		margin-bottom: 15px;
+	}
+	.footer__links-map {
+		margin-bottom: 15px;
+	}
+	.footer__item {
+		margin-right: 40px;
+	}
+
+	.footer__addresses {
+		width: 100%;
+	}
+	.footer__addresses-content {
+		justify-content: flex-start;
+	}
+	.footer__addresses-subtitle {
+		margin-bottom: 15px;
+	}
+	.footer__contact-inner{
+		display: flex;
+		justify-content: start;
+	}
+	.footer__time-contact{
+		margin-right: 20px;
+		width: 30%;
+	}
+	.footer__time {
+		max-width: none;
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 900px){
+	// menu
+	.menu__lists {
+		display: none;
+	}
+	.header__btn-menu {
+		display: flex;
+	}
+	.header {
+		height: 137px;
+	}
+	.menu__lists.active{
+		display: block;
+	}
+	.menu__lists {
+		line-height: 100%;
+		position: absolute;
+		left: -25px;
+		right: 0px;
+		top: 136px;
+		z-index: 10000;
+		text-align: center;
+	}
+	.menu__lists li{
+		display: block;
+		padding-left: 0;
+		padding-right: 0;	
+	}
+	.menu__lists li a{
+		display: block;
+		color: #fff;
+		padding: 10px;
+		border-bottom: 2px solid #fff;
+		transition: all .3s;
+		background: $btnColor;
+	}
+	.menu__lists li:last-child{
+		display: none;
+	}
+	
+	// slider
+	.slider__item-fon1{
+    background-position: center;
+  }
+  .slider__item-fon2{
+    background-position: center;
+
+  }
+  .slider__item-fon3{
+    background-position: center;
+
+  }
+  .slider__item-fon4{
+    background-position: center;
+
+  }
+  .slider__item-fon5{
+		background-position: center;
+	}
+	
+	// description
+	.description{
+		background-position-x: 150%;
+	}
+	.description__inner {
+    	padding: 30px 0 60px 50px;
+	}
+	.description__title {
+		max-width: 500px;
+	}
+	// services
+	.services__inner{
+		justify-content: space-evenly;
+	}
+	.services__item{
+		width: 40%;
+	}
+	.services__item:last-child{
+		display: none;
+	}
+	.services__btn {
+    	margin-left: 6.5%;
+	}
+	.services__title {
+		text-align: center;
+	}
+	// warranty
+	.warranty__item{
+		width: 100%;
+		padding: 25px 30px 27px;
+		min-height: auto;
+	}
+	.warranty__item-pay {
+    	display: block;
+	}
+	.warranty__pay-title {
+		width: 100%;
+	}
+	.warranty__pay-text {
+		width: 100%;
+	}
+	.warranty__item-explain{
+		min-height: auto;
+	}
+	.warranty__item-protect{
+		min-height: auto;
+	}
+	// service-list
+	.service-list__text{
+		margin-right: 0px;
+	}
+	// trust-benefit
+	.trust-benefit {
+		padding: 15px 0 50px;
+	}
+	.trust-benefit__item{
+		flex-wrap: wrap;
+	}
+	.trust-benefit__list {
+		padding-left: 60px;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.trust-benefit__content {
+		margin-right: 0px;
+		max-width: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.trust-benefit__item:first-child {
+		margin-bottom: 10px;
+		padding-bottom: 37px;
+	}
+	// advantages
+	.advantages__content{
+		padding: 25px 30px 27px;	
+	}
+	// footer
+	
+	
+}
+
+@media (max-width: 800px){
+	// header
+	.header__logo {
+		width: 200px;
+	}
+	.slider__item-fon1,
+	.slider__item-fon4,
+	.slider__item-fon5 {
+		background-position-x: -650px;
+	}
+	// about
+	.about__item {
+		margin: 10px;
+	}
+	// description
+	.description{
+		background-position-x: 220%;
+	}
+	// reviews
+	.reviews__slider-content {
+		padding: 22px 20px 35px 20px;
+	}
+	.reviews__slider-name {
+    font-size: 22px;
+	}
+	.reviews__slider-link {
+		bottom: 20px;
+		left: 20px;
+	}
+	// service-list
+	.service-list__inner{
+		justify-content: center;
+	}
+	.service-list__item:nth-child(odd){
+		width: 90%;
+	}
+	.service-list__item:nth-child(even){
+		width: 90%;
+	}
+	.service-list__item{
+		padding: 25px 15px 0 110px;
+	}
+	.service-list__title {
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 700px){
+	$titleFont: 23px;
+	.slick-next {
+    left: 15%;
+	}
+	// description
+	.description{
+		background-position-x: 400px;
+	}
+	.description__inner {
+		padding-right: 130px;
+	}
+	// services
+	.services__inner{
+		justify-content: center;
+	}
+	.services__item{
+		width: 60%;
+	}
+	.services__item:last-child{
+		display: block;
+	}
+	.services__btn {
+    margin-left: 20%;
+	}
+	// activity
+	.activity__slick-btn::before {
+		font-size: 37px;
+	}
+	// reviews 
+	.reviews__slider-block--item{
+		width: 100%;
+	}
+	.reviews__slider-block--item:last-child{
+		display: none;
+	}
+	// advantages
+	.advantages__item{
+		padding: 30px 15px 30px;
+	}
+	// organization
+	.organization__inner{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.organization__item-left{
+		width: 100%;
+	}
+	.organization__item-right {
+		width: 100%;
+	}
+	.organization__item-content {
+		padding-left: 90px;
+	}
+	// footer
+	.footer__item {
+		margin-right: 10px;
+	}
+	.footer__text {
+		margin-bottom: 10px;
+	}
+	.footer__contact {
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 600px){
+	// header
+	.header {
+		height: 147px;
+		&__top{
+			display: block;
+			margin-bottom: 15px;
+		}
+		&__contacts{
+			justify-content: center;
+		}
+		&__linguages{
+			margin-bottom: 15px;
+		}
+	}
+	.header__logo {
+		width: 150px;
+	}
+	.menu__lists {
+		top: 146px;
+	}
+		// about
+		.about__inner{
+			justify-content: center;
+		}
+		.about__item {
+			width: 80%;
+			min-height: 235px;
+		}
+		.about__item-circle {
+			width: 100px;
+			height: 100px;
+		}
+			// description
+		.description{
+			background-image: none;
+		}
+		.description__inner {
+			padding-right: 50px;
+		}
+		.description__text {
+			padding-right: 0px;
+		}
+	// advantages
+	.advantages__item{
+		width: 80%;
+		min-height: 295px;
+	}
+	.advantages__title {
+		margin-left: 10%;
+	}
+	// partners__logo
+	.partners__logo{
+		max-width: none;
+		width: 100%;
+		margin-left: 0;
+	}
+	  .partners__logo-img {
+		margin: 0 5px 0px;
+	} 
+	// footer
+	.footer__item {
+		max-width: none;
+		width: 48%;
+	}
+
+}
+
+@media (max-width: 540px){
+	.slider__title {
+	  font-size: 35px;
+	  line-height: 39px;
+	}
+	// services
+	.services__item{
+		width: 90%;
+	}
+	.services__btn {
+    margin-left: 5%;
+	}
+	// activity
+	.activity__slick-btn::before {
+		font-size: 30px;
+	}
+	// activity
+	.activity__slick-prev {
+    left: 5px;
+	}
+	.activity__slick-next {
+    right: 5px;
+	} 
+	// reviews
+	.reviews__slick-next {
+    right: 0px;
+	}
+	.reviews__slick-prev {
+    right: 62px;
+	}
+	// partners
+	.partners__logo-img {
+		margin: 0 2px 0px;
+	}
+	// service-list
+	.service-list__item{
+		padding: 15px 15px 0 60px;
+	}
+	.service-list__fon {
+   	width: 42px;
+	}
+	// advantages
+	.advantages__item{
+		width: 80%;
+	}
+	// footer
+	.footer__time-contact {
+		margin-right: 15px;
+	}
+	.footer__contact-inner{
+		flex-wrap: wrap;
+	}
+	.footer__time-contact {
+		width: 47%;
+	}
+	.footer__addresses-content{
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 530px){
+	.footer__item{
+		width: 100%;
+	}
+}
+@media (max-width: 450px){
+	// header
+	.header__icon-mts,
+	.header__icon-vel{
+		display: none;
+	}
+	.header__phone{
+		font-size: 13px;
+		margin-right: 2px;
+	}
+	.header__icon-phone {
+		font-size: 18px;
+		margin: 0 6px;
+	}
+	.header__icon-message {
+		font-size: 19px;
+		margin-right: 6px;
+	}
+	// description
+  	.description__inner {
+		padding: 30px 25px; 
+	}
+	.organization__item-circle {
+		width: 50px;
+		height: 50px;
+	}
+	.organization__item-content {
+		padding-left: 65px;
+	}
+	.organization__item-right {
+		padding: 15px 25px 15px;
+	}
+	.form__btn {
+		width: 100%;
+	}
+	// service-list
+	.service-list__link {
+		bottom: 12px;
+	}
+	// footer
+	.footer__time-contact {
+		width: 50%;
+	}
+}
+
+@media (max-width: 330px){
+	.header__phone {
+		font-size: 12px;
+		margin-right: 1px;
+	}
+	.header__icon-phone {
+		font-size: 16px;
+		margin: 0 8px;
+	}
+	.header__icon-message {
+		font-size: 20px;
+		margin-right: 8px;
+	}
+}
+
+@media (max-width: 700px){
+	.description__title, .services__title, .activity__title, .reviews__title, .service-list__title, .trust-benefit__title, .advantages__title, .organization__item-title, .cost__title{
+		font-size: 25px;
+	}
+}
+@media (max-width: 500px){
+	.description__title, .services__title, .activity__title, .reviews__title, .service-list__title, .trust-benefit__title, .advantages__title, .organization__item-title, .cost__title{
+		font-size: 23px;
+		line-height: 30px;
+	}
+	.warranty__item-title {
+		font-size: 22px;
+		line-height: 35px;
+	}
+	.services__item-title, .service-list__subtitle, .footer__links-title {
+		font-size: 17px;
+  	}
+}
+@media (max-width: 370px){
+	.description__title, .services__title, .activity__title, .reviews__title, .service-list__title, .trust-benefit__title, .advantages__title, .organization__item-title, .cost__title{
+		font-size: 20px;
+	}
+	.warranty__item-title {
+		font-size: 20px;
+	}
+}
+
+
+

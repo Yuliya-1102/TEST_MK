@@ -1,0 +1,60 @@
+// COLOR
+$btnColor: #DEC377;
+$titleColor: rgba(0, 0, 0, 0.9);
+$paraColor: rgba(0, 0, 0, 0.5);
+$subtitleColor: rgba(0, 0, 0, 0.8);
+
+// FONT-Size
+$titleHeaderFont: 40px;
+$titleFont: 28px;
+$subtitleFont: 26px;
+$innerTitleFont: 20px;
+$paraFont: 15px;
+
+// FONT-Family
+$paraFontFamily: 'Lato', sans-serif;
+$titleFontFamily: 'Commissioner', sans-serif;
+
+%para-shared {
+  font-family: $paraFontFamily;
+	font-weight: 300;
+	font-size: $paraFont;
+	line-height: 25px;
+	line-height: 25px;
+	color: $paraColor;
+	}
+
+%title-shared {
+	font-family: $titleFontFamily;
+	font-weight: normal;
+	font-size: $titleFont;
+	line-height: 40px;
+	color: $titleColor;
+	letter-spacing: 0.8px;
+}
+
+%subtitle-shared {
+	font-family: $titleFontFamily;
+	font-weight: normal;
+	font-size: $subtitleFont;
+	line-height: 45px;
+	color: $titleColor;
+}
+
+%innerTitle-shared {
+	font-family: $titleFontFamily;
+	font-weight: normal;
+	font-size: $innerTitleFont;
+	line-height: 30px;
+	color: $titleColor;
+}
+
+%link-to-transition {
+	font-family: $paraFontFamily;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.5);
+}
+
